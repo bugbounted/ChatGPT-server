@@ -17,7 +17,7 @@ app.use(express.json())
 
 app.get('/', async (req, res) => {
   res.status(200).send({
-    message: 'Zirak BackEnd Service is Ready to Work :)'
+    message: 'Zirak Core is Ready to Work :)'
   })
 })
 
